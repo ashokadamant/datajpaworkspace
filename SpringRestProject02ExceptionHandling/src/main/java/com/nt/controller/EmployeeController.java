@@ -14,6 +14,7 @@ public class EmployeeController  {
 		if(new Random().nextInt(10)<5) {
 			System.out.println("ashok");
 			System.out.println("kumar");
+			System.out.println("madhu");
 		throw new EmployeeNotFoundException("Emplooyee not found");
 		}
 		return "welcome to the exception hadnling using spring rest";
