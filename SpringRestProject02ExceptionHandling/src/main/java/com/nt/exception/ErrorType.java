@@ -13,5 +13,8 @@ public ErrorType(LocalDateTime ldt, String message, Integer code) {
 	this.message = message;
 	this.code = code;
 }
+public void m1() {
+	System.out.println("ErrorType");
+}
 
 }
